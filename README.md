@@ -14,3 +14,9 @@ HTML
 CSS
 JavaScript
 Weather APIs (e.g., OpenWeatherMap)
+
+
+<img width="960" alt="2023-04-21 (2)" src="https://github.com/NivedithaKulkarni/Weather-Application/assets/69378295/7662763d-871c-42a3-bff6-98ca3eaf412e">
+
+
+<img width="960" alt="2023-04-21 (1)" src="https://github.com/NivedithaKulkarni/Weather-Application/assets/69378295/e17f834a-09db-41f8-b4dc-d0fba8c39c83">
