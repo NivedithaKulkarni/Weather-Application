@@ -1,0 +1,95 @@
+.card{
+   padding: 20px;
+   background-color:#0a0a0ad0;
+   color:white;
+   border-radius: 15px;
+   width:110%;
+   max-width:420px;
+   margin:2px;
+   font-family: 'Exo 2', sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    background-color: rgb(247, 247, 249);
+    background-image: url('https://source.unsplash.com/1600x900/?city&nature&culture');
+    font-size: 90%;
+}
+.search{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    margin:0.5em;
+    border-radius: 40%;
+    height:2.9em;
+    width:2.9em;
+    background-color:#232323d0;
+    color:white;
+}
+
+button:hover{
+    background-color:#3a3939d0;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+.textbox{
+    margin:0.5em;
+   border-radius: 18px;
+    height:2.5em;
+    width:25em;
+    background-color:#232323d0;
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 15px;
+    padding-left: 25px;
+}
+
+.textbox:hover{
+    background-color:#3a3939d0;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+h2{
+    font-size: 30px;
+}
+
+.description{
+    text-transform: capitalize;
+}
+
+.humidity{
+    font-size: medium;
+
+}
+
+.wind{
+    font-size:medium;
+}
+
+.flex{
+    align-items: center;
+    display: flex;
+    font-size: medium;
+}
+
+.weather.loading{
+    visibility: hidden;
+    max-height: 20px;
+    position: relative;
+  }
+  
+  .weather.loading:after {
+    visibility: visible;
+    content: "Loading...";
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 20px;
+    font-size: medium;
+  }
